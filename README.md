@@ -1,38 +1,16 @@
-# create-svelte
+## 🌃 My Portfolio
+This is my official portfolio website written with the help of SvelteKit and Tailwind. There isn't much to look here, but I hope you enjoyed looking at the source code. You can also view the production version at https://mihou.pw which was deployed with https://pages.dev.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+## 🍮 Time Taken
+The entire website took a total of 2 hours and 33 minutes according to OBS, the process was streamed privately and had been the first Svelte project I've worked on with Tailwind.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## 🔮 Credits
+All the credits of the development goes to the following:
+- [Svelte](https://svelte.dev)
+- [Tailwind](https://tailwindcss.com)
+- [Heroicons](https://heroicons.com)
+- [FontAwesome](https://fontawesome.com)
+- [Tippy.js](https://atomiks.github.io/tippyjs/)
+- [Svelte-fa](https://cweili.github.io/svelte-fa/)
+- [Svelte Heroicons](https://github.com/JustinVoitel/svelte-hero-icons)
+- [Svelte-Add Tailwind](https://github.com/svelte-add/tailwindcss)
