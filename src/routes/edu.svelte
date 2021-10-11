@@ -64,3 +64,18 @@
     <p class="text-xl font-light pb-4">I also have a bit of experience with simple website development softwares like Wordpress and didn't like the limited functionality that I could do... but it could be because I didn't like making my own plugins.</p>
     <p class="text-xl font-light pb-4">And that's practically everything for a little summary of my experiences in the field of Programming.</p>
 </div>
+
+<style>
+	.fadeIn {
+		animation: fadeIn 900ms ease-in-out;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 100%;
+		}
+	}
+</style>

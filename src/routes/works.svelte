@@ -59,3 +59,18 @@
 		</div>
 	</a>
 </div>
+
+<style>
+	.fadeIn {
+		animation: fadeIn 900ms ease-in-out;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 100%;
+		}
+	}
+</style>
