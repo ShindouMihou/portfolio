@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://manabot.fun/fonts/WeissenhofGrotesk-Bold.woff2');
+@import url('https://manabot.fun/fonts/WeissenhofGrotesk-Light.woff2');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wei {
+    font-family: 'WeissenhofGrotesk', sans-serif;
+}
+
+.comfortaa {
+    font-family: 'Comfortaa', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
