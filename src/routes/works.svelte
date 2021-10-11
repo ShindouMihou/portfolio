@@ -12,13 +12,13 @@
 </div>
 
 <div class="animate fadeIn duration-500">
-	<a href="https://manabot.fun" class="flex flex-row gap-4 hover:scale-105 transition duration-500">
+	<a href="https://manabot.fun" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
 		<img
-			class="h-32 w-32 rounded border-2 border-white  border-dotted my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
+			class="h-32 w-32 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
 			src="https://cdn.manabot.fun/images/Mana.png"
 			alt="Mana Nagase"
 		/>
-		<div class="flex flex-col pt-6">
+		<div class="flex flex-col pt-2 md:pt-6">
 			<h1 class="text-4xl font-bold">
 				Mana
 			</h1>
@@ -28,13 +28,13 @@
 			</p>
 		</div>
 	</a>
-    <a href="https://www.scribblehub.com/series/299262/the-vampire-empress/" class="flex flex-row gap-4 hover:scale-105 transition duration-500">
+    <a href="https://www.scribblehub.com/series/299262/the-vampire-empress/" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
 		<img
-			class="h-48 w-36 rounded border-2 border-white  border-dotted my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
+			class="h-48 w-36 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
 			src="https://cdn.mihou.pw/v3.png"
 			alt="Mana Nagase"
 		/>
-		<div class="flex flex-col pt-6">
+		<div class="flex flex-col pt-2 md:pt-6">
 			<h1 class="text-4xl font-bold">
 				The Vampire Empress
 			</h1>
@@ -43,13 +43,13 @@
 			</p>
 		</div>
 	</a>
-    <a href="https://www.scribblehub.com/series/216494/a-liliful-world-yuri-reincarnation/" class="flex flex-row gap-4 hover:scale-105 transition duration-500">
+    <a href="https://www.scribblehub.com/series/216494/a-liliful-world-yuri-reincarnation/" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
 		<img
-			class="h-48 w-36 rounded border-2 border-white  border-dotted my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
+			class="h-48 w-36 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
 			src="https://cdn.mihou.pw/A%20Liliful%20Concept%20Vol.%203.png"
 			alt="Mana Nagase"
 		/>
-		<div class="flex flex-col pt-6">
+		<div class="flex flex-col pt-2 md:pt-6">
 			<h1 class="text-4xl font-bold">
 				A Liliful World
 			</h1>
