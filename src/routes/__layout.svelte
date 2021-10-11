@@ -14,8 +14,9 @@
 <svelte:head>
 <title>Shindou Mihou | Ocean Blue</title>
 <meta name="og:title" content="Who is Shindou Mihou?"/>
-<meta name="og:description" content="Shindou Mihou is the developer of Mana and many other projects from the Philippines."/>
-<meta name="og:image" content="Placeholder"/>
+<meta name="og:description" content="Shindou Mihou is a 16 year old from the Philippines and also the developer of Mana and many other projects."/>
+<meta name="og:image" content="https://cdn.mihou.pw/ManaR.jpg"/>
+<meta name="theme-color" content="#4de1ff"/>
 </svelte:head>
 
 <div class="flex flex-row justify-between px-14 md:px-32 lg:px-64 py-6 bg-black text-white wei">
