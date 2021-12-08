@@ -28,8 +28,5 @@
         <a href="https://manabot.fun/" data-tippy-content="Mana Nagase">
             <img src="https://cdn.manabot.fun/images/Mana.png" class="bg-gray-50 rounded text-black" height="250px" width="250px" alt="Mana Nagase"/>
         </a>
-        <a href="https://erisa.one/" data-tippy-content="Erisa">
-            <div class="h-64 w-64 bg-white rounded text-black mx-auto text-8xl font-bold items-center flex flex-col align-middle justify-center">ER</div>
-        </a>
     </div>
 </div>

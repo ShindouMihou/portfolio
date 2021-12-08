@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://manabot.fun/fonts/WeissenhofGrotesk-Bold.woff2');
 @import url('https://manabot.fun/fonts/WeissenhofGrotesk-Light.woff2');
-@import '@splidejs/splide/dist/css/splide.min.css';
 
 @tailwind base;
 @tailwind components;
