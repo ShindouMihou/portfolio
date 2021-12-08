@@ -1,6 +1,6 @@
 <div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col gap-4">
 	<div>
-		<h2 class="font-bold text-5xl">NOVELS</h2>
+		<h2 class="font-bold text-4xl">NOVELS</h2>
 		<p class="font-bold text-2xl text-gray-100">Long ago, the skies was filled with us.</p>
 		<p class="py-4 font-normal text-xl text-gray-100">
             As a hobby, webnovel writing has helped me learn more about expressing my thoughts and telling stories to the public. It's a hobby that I wish to be with till the end.
@@ -18,7 +18,7 @@
         </a>
     </div>
     <div>
-		<h2 class="font-bold text-5xl">APPLICATIONS</h2>
+		<h2 class="font-bold text-4xl">APPLICATIONS</h2>
 		<p class="font-bold text-2xl text-gray-100">The story between code.</p>
 		<p class="py-4 font-normal text-xl text-gray-100">
             Although I've been a developer for a few years now, there are still quite little public applications that I've wrote but this will increase with time.
