@@ -1,14 +1,11 @@
 <script>
 	import Fa from 'svelte-fa/src/fa.svelte';
-	import Icon from 'svelte-hero-icons/Icon.svelte';
-	import {AcademicCap, Beaker} from 'svelte-hero-icons';
 	import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
-	import { onMount } from 'svelte';
 </script>
 
-<div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col">
+<div class="md:align-middle md:justify-center flex flex-col">
 	<div>
-		<h2 class="font-bold text-6xl">SHINDOU MIHOU</h2>
+		<h2 class="font-bold text-4xl">SHINDOU MIHOU</h2>
 		<p class="font-bold text-2xl text-gray-100">I'm from the Philippines, born on December 22, 2004 with experiences on back-end, front-end development, devops.</p>
 		<p class="py-4 font-normal text-2xl text-gray-100">My hobbies consist of fantasy web-novel writing, cinematography and photography, listening to music and reading mangas, webtoons or long-strip.</p>
 	</div>

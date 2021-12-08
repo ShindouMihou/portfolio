@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import {AcademicCap, Beaker} from 'svelte-hero-icons';
+	import {Heart, Beaker} from 'svelte-hero-icons';
 	import Icon from 'svelte-hero-icons/Icon.svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
@@ -68,6 +68,10 @@
 	</div>
 </div>
 <div class="hidden bg-white h-20 transition duration-500 navigation__bg__change" id="__bottom_bar">
+	<div class="md:hidden p-6 text-black font-bold items-center flex flex-row gap-2 mt-r">
+		<Icon src={Heart} class="h-6 w-6 text-red-600" solid></Icon>
+		<h2 class="text-xl">MIHOU</h2>
+	</div>
 </div>
 
 
@@ -75,11 +79,7 @@
 	:root {
 		background-color: black;
 		color: white;
-	}
-
-	html {
 		scroll-behavior: smooth;
-		overflow-x: hidden;
 	}
 
 	#__loader {

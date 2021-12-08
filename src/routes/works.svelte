@@ -1,4 +1,4 @@
-<div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col gap-4">
+<div class="md:align-middle md:justify-center flex flex-col gap-4">
 	<div>
 		<h2 class="font-bold text-4xl">NOVELS</h2>
 		<p class="font-bold text-2xl text-gray-100">Long ago, the skies was filled with us.</p>
