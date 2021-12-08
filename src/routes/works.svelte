@@ -6,7 +6,7 @@
             As a hobby, webnovel writing has helped me learn more about expressing my thoughts and telling stories to the public. It's a hobby that I wish to be with till the end.
         </p>
 	</div>
-    <div class="py-4 flex flex-row gap-4 overflow-auto">
+    <div class="py-4 grid grid-cols-2 md:grid-cols-3 gap-4 overflow-auto">
         <a href="https://www.scribblehub.com/series/299262/the-vampire-empress/" data-tippy-content="The Vampire Empress">
             <img src="https://cdn.mihou.pw/TVE_2.png" class="bg-gray-50 rounded text-black" height="350px" width="250px" alt="The Vampire Empress"/>
         </a>
@@ -24,9 +24,9 @@
             Although I've been a developer for a few years now, there are still quite little public applications that I've wrote but this will increase with time.
         </p>
 	</div>
-    <div class="py-4 flex flex-row gap-4 overflow-auto">
+    <div class="py-4 grid grid-cols-1 overflow-auto">
         <a href="https://manabot.fun/" data-tippy-content="Mana Nagase">
-            <img src="https://cdn.manabot.fun/images/Mana.png" class="bg-gray-50 rounded text-black" height="250px" width="250px" alt="Mana Nagase"/>
+            <img src="https://cdn.manabot.fun/images/Mana.png" class="w-full bg-gray-50 rounded text-black" height="350px" width="250px" alt="Mana Nagase"/>
         </a>
     </div>
 </div>
