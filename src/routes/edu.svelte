@@ -1,13 +1,13 @@
 <div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col gap-4">
 	<div>
-		<h2 class="font-bold text-5xl">LANGAUGES, TOOLS</h2>
+		<h2 class="font-bold text-4xl">LANGAUGES, TOOLS</h2>
 		<p class="font-bold text-2xl text-gray-100">I'm not the best, but I'm also not the worst.</p>
 		<p class="py-4 font-normal text-xl text-gray-100">
             Having been the sole developer of a few projects, I've figured my way around different tools and languages to suit the needs of the project which allowed me to gain experience in many fields.
         </p>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">JAVA</h2>
+		<h2 class="font-bold text-4xl">JAVA</h2>
 		<p class="font-bold text-2xl text-gray-100">Bulky, fast.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -16,7 +16,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">RUST</h2>
+		<h2 class="font-bold text-4xl">RUST</h2>
 		<p class="font-bold text-2xl text-gray-100">Fast, safe and best.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -28,7 +28,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">PHP</h2>
+		<h2 class="font-bold text-4xl">PHP</h2>
 		<p class="font-bold text-2xl text-gray-100">Trust in Laravel.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -40,7 +40,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">JAVASCRIPT</h2>
+		<h2 class="font-bold text-4xl">JAVASCRIPT</h2>
 		<p class="font-bold text-2xl text-gray-100">Why is it called Javascript?</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -49,7 +49,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">TAILWIND</h2>
+		<h2 class="font-bold text-4xl">TAILWIND</h2>
 		<p class="font-bold text-2xl text-gray-100">Beauty at its cursed.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -58,7 +58,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">DOCKER</h2>
+		<h2 class="font-bold text-4xl">DOCKER</h2>
 		<p class="font-bold text-2xl text-gray-100">Port... Portainer!</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -67,7 +67,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">REDIS</h2>
+		<h2 class="font-bold text-4xl">REDIS</h2>
 		<p class="font-bold text-2xl text-gray-100">SOOONICCCC.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -76,7 +76,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">MONGODB</h2>
+		<h2 class="font-bold text-4xl">MONGODB</h2>
 		<p class="font-bold text-2xl text-gray-100">JASOOOON!</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -85,7 +85,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">MYSQL</h2>
+		<h2 class="font-bold text-4xl">MYSQL</h2>
 		<p class="font-bold text-2xl text-gray-100">Relationships...</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -94,7 +94,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">Sentry & Grafana</h2>
+		<h2 class="font-bold text-4xl">Sentry & Grafana</h2>
 		<p class="font-bold text-2xl text-gray-100">A match in heaven.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -103,7 +103,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">SVELTE</h2>
+		<h2 class="font-bold text-4xl">SVELTE</h2>
 		<p class="font-bold text-2xl text-gray-100">This is actually a Svelte website.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
@@ -112,7 +112,7 @@
         </div>
 	</div>
     <div>
-		<h2 class="font-bold text-6xl">LARAVEL</h2>
+		<h2 class="font-bold text-4xl">LARAVEL</h2>
 		<p class="font-bold text-2xl text-gray-100">The pearl of full-stack.</p>
         <div class="flex flex-col gap-4 py-4">
             <p class="font-normal text-xl text-gray-100">
