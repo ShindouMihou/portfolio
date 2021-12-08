@@ -1,81 +1,123 @@
-<img
-	class="h-64 w-64 rounded border-2 border-white  border-dotted my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
-	src="/suyaa.png"
-	alt="Suyaa"
-/>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Experiences</h1>
-    <p class="text-xl font-light">Being the solo developer of a decently-sized Discord bot and also the developer behind several projects, I've worked on different languages and learnt many fields in terms of Programming, here are some of my experiences on a few.</p>
+<div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col gap-4">
+	<div>
+		<h2 class="font-bold text-5xl">LANGAUGES, TOOLS</h2>
+		<p class="font-bold text-2xl text-gray-100">I'm not the best, but I'm also not the worst.</p>
+		<p class="py-4 font-normal text-xl text-gray-100">
+            Having been the sole developer of a few projects, I've figured my way around different tools and languages to suit the needs of the project which allowed me to gain experience in many fields.
+        </p>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">JAVA</h2>
+		<p class="font-bold text-2xl text-gray-100">Bulky, fast.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                The langauge is among the languages that I've used a lot. I have to admit, despite its flaws, Java is quite the beautiful language but there is one issue that made me transition away from Java and that it's bulkiness in terms of file size and memory.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">RUST</h2>
+		<p class="font-bold text-2xl text-gray-100">Fast, safe and best.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Rust is the language that I've come to love the most. I've always thought in the past that no matter what language I've wrote something, it wouldn't matter but Rust proved me wrong especially when I needed something that used less memory while doing more than what Java could.
+            </p>
+            <p class="font-normal text-xl text-gray-100">
+                The language has shattered my expectations many times and have brought scary improvements in both performance and efficiency onto most of the applications that I've transitioned parts of which into the language.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">PHP</h2>
+		<p class="font-bold text-2xl text-gray-100">Trust in Laravel.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Although hated by many of the community, PHP is still an incredible language for its use-case in the web. I've used PHP a lot and I've come to experience how comfortable and quick you can make stuff out of the language.
+            </p>
+            <p class="font-normal text-xl text-gray-100">
+                I've come to love it more while trying out Laravel, the framework is as if magic. You can write an entire web application in a single day with full functionality.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">JAVASCRIPT</h2>
+		<p class="font-bold text-2xl text-gray-100">Why is it called Javascript?</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                This language is a cool one for web development, although I've used it a few times for other use-cases, I still think Javascript is sort of better used in web-development stuff but this is just an opinion of someone who've only written around six non-web Javascript applications.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">TAILWIND</h2>
+		<p class="font-bold text-2xl text-gray-100">Beauty at its cursed.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Tailwind is my go-to CSS framework when I have the opportunity to, although it can make your HTML quite the mess, it can help you produce a delicious-looking website within moments. Is there any better than that?
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">DOCKER</h2>
+		<p class="font-bold text-2xl text-gray-100">Port... Portainer!</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Docker is just magic. There is no other word to explain it but magic. I've once thought that I don't need Docker or I could just download, install everything myself but... I was so wrong. Docker simplified my life ten times over, need to install Redis with proper configuration... just run this one-liner command.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">REDIS</h2>
+		<p class="font-bold text-2xl text-gray-100">SOOONICCCC.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                One of my favorite database and cache, Redis stands as the best in my list especially as a cache. It's simple, beautiful, quick to install and supersonic fast to the extent that it'd reduce the time it takes for my applications to grab something from the database by half.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">MONGODB</h2>
+		<p class="font-bold text-2xl text-gray-100">JASOOOON!</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                MongoDB is among the first databases that I've come to love. I've first used it on my Discord bot after doing some research and I've sure come to love the NoSQL paradigm for i. MongoDB is performant, powerful and efficient which all what I wanted back then.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">MYSQL</h2>
+		<p class="font-bold text-2xl text-gray-100">Relationships...</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                MySQL and PostgreSQL are both my second go-to database and also the ones that I've used in several of my applications. It's my favorite when going for websites which is really where it tends to be used.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">Sentry & Grafana</h2>
+		<p class="font-bold text-2xl text-gray-100">A match in heaven.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Sentry and Grafana are both my favorites in monitoring applications health and error logging. All my applications are linked with Sentry to notify me of when an error occurs on multiple users while Grafana is also used to help monitor any possiblity of a memory leak and so forth. It also helps me diagnose requests and the time it took to handle that request which can help in determining bottlenecks in the application.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">SVELTE</h2>
+		<p class="font-bold text-2xl text-gray-100">This is actually a Svelte website.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Svelte stands as my most favorite Javascript framework because of how simple it is to get into as someone who is used to plain Javascript, HTML and CSS. It doesn't enforce you to use JSX or something which makes me happy.
+            </p>
+        </div>
+	</div>
+    <div>
+		<h2 class="font-bold text-6xl">LARAVEL</h2>
+		<p class="font-bold text-2xl text-gray-100">The pearl of full-stack.</p>
+        <div class="flex flex-col gap-4 py-4">
+            <p class="font-normal text-xl text-gray-100">
+                Laravel is among my most favorite full-stack web frameworks so far. It has a huge community, ecosystem that makes you find the tools that you need to build a proper web application from a chat app, novel website, blog site and so forth in an hour.
+            </p>
+        </div>
+	</div>
 </div>
-
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Java</h1>
-    <p class="text-xl font-light pb-4">Among the earliest language that I've learnt which had started as a little hobby from fourth grade for Minecraft plugins.</p>
-    <p class="text-xl font-light pb-4">The language has been one of my main go-to languages if I want to create systems programs such as APIs and Backends with as little time as possible while still maintaining performance.</p>
-    <p class="text-xl font-light pb-4">As of this moment, I've written around 48 actively maintained projects from the past year and have been actively contributing with the Java community in a few ways possible with the language taking up 85% of my entire GitHub portfolio.</p>
-</div>
-
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Rust</h1>
-    <p class="text-xl font-light pb-4">A language that is among the newest to come out in the community but is one of the most loved languages for six years straight according to StackOverFlow.</p>
-    <p class="text-xl font-light pb-4">The language has been one of my most favorite languages to write on for several reasons and have been integrated in many of my projects especially the Discord bot Mana where performance was a key point.</p>
-    <p class="text-xl font-light pb-4">Rust is a very incredible language to write on for me as the compiler not only helps you find memory leaks before it hits production but it also helps maintain thread-safety and fix any possible critical bugs that would break your entire infrastructure while maintaing C language level performance.</p>
-    <p class="text-xl font-light pb-4">As of this moment, I've written around 12 actively maintained projects on Rust within the first two months of 2021 and plan on expanding forward with the language.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">PHP</h1>
-    <p class="text-xl font-light pb-4">A language so dreaded that it was misused many times and has earned the second spot in the most dreaded languages on the entire community but somehow... maintains a very huge market share of the entire internet?!</p>
-    <p class="text-xl font-light pb-4">PHP is argubably the most used language in the entire website market share and it really is weird as the language is considered the most dreaded but I do understand why it is used a lot and that is its insane abstractions and ease of deployment.</p>
-    <p class="text-xl font-light pb-4">Unlike other languages, PHP was created for the webpage and was meant to be integrated with HTML and others which is the dominant cause for its early success in the past.</p>
-    <p class="text-xl font-light pb-4">Argubably, I've written most of my websites with the help of PHP or Laravel which really speeds up development time by a lot, but I am transitioning a lot of other Javascript frameworks such as Svelte which has been my favorite one so far.</p>
-    <p class="text-xl font-light pb-4">An example of website that I've wrote entirely in PHP are: <a href="https://manabot.fun" class="font-bold text-blue-400 hover:underline">Mana</a> which was written with Tailwind and Laravel in less than five days... actually, the first few pages and an entire backend was written in less than a day.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Web Development Tools</h1>
-    <p class="text-xl font-light pb-4">To define this section, this refers to tools that are used to create websites such as HTML, Javascript and CSS with Figma for prototyping.</p>
-    <p class="text-xl font-light pb-4">Having written many websites, I've have a lot of experiences with web development in general and usually make an average of one to two a month as a hobby.</p>
-    <p class="text-xl font-light pb-4">I've used plenty of tools such as Node.js and Composer to help speed up creation of websites, also Figma which has been the best help in regards of prototyping the looks of a website.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">DevOps</h1>
-    <p class="text-xl font-light pb-4">Among my favorite in the field of Programming, almost all my programs have some sort of DevOp tool that helps automate the process of building and deploying them onto the production servers.</p>
-    <p class="text-xl font-light pb-4">My most used DevOp tool has been Docker and many should know why as Docker allows you to deploy virtual machines and automate build process of applications, deploying them immediately onto the server with little interaction from the developer.</p>
-    <p class="text-xl font-light pb-4">Other than <span class="text-blue-400 font-bold hover:underline">Docker</span>, I've used several CI/CD applications, for instance, GitHub Actions and Travis CI to build Docker images by simply tagging a GitHub Commit as DEPLOY.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Databases</h1>
-    <p class="text-xl font-light pb-4">A requirement for most backend developers to know, a database is where programs or applications stores and fetches data persistently with as less time as possible.</p>
-    <p class="text-xl font-light pb-4">I've used several databases such as MySQL, Redis and MongoDB and among them, my favorite go-to database has always been <span class="text-green-400 font-bold hover:underline">MongoDB</span> paired with Redis to speed up queries.</p>
-    <p class="text-xl font-light pb-4">Among the databases out there, I plan on learning Apache Cassandra and Scylla for the wide-column paradigm and GraphQL for the graph paradigm.</p>
-    <p class="text-xl font-light pb-4">From all my major projects, six of them uses MongoDB and four of which uses MySQL as their main databases.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Application Monitoring</h1>
-    <p class="text-xl font-light pb-4">I've only played with a few monitoring services but these few have been more than enough to handle everything that I needed.</p>
-    <p class="text-xl font-light pb-4">The few mentioned are Sentry and Grafana which are argubably the most used in the community for several reasons.</p>
-    <p class="text-xl font-light pb-4">I use <span class="text-purple-400 font-bold hover:underline">Sentry</span> to monitor most of my applications, particularly, collecting all the errors and bringing them into my attention to patch as soon as possible and it really has worked very well for me.</p>
-    <p class="text-xl font-light pb-4"><span class="text-orange-400 font-bold hover:underline">Grafana</span> is used to monitor the health and status of the applications, like for instance, the amount of memory each application uses to the little bits like HTTP request counts and time took per requests which are used to figure out whether your application is underperforming on specific parts.</p>
-</div>
-<div class="animate fadeIn duration-500 pb-4">
-    <h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Extras</h1>
-    <p class="text-xl font-light pb-4">As a full-stack developer, there is a little bit too much stuff to mention here. As such, we'll be limiting ourselves to those for now but I'd like to list a few stuff that I do have plenty of experiences on.</p>
-    <p class="text-xl font-light pb-4">For IDEs, I've used many different IDEs in the past but so far, there have only been two candidates that are my most favorite and those two are: <span class="text-red-600 font-bold hover:underline">IntelliJ</span> and <span class="text-blue-400 font-bold hover:underline">VS Code</span> which are undoubtedly the best in the industry.</p>
-    <p class="text-xl font-light pb-4">I've also worked on servers mainly Linux or Debian servers from DNS Configuration, Deployment, Securing Servers and many other that are needed to keep a server performant and secure.</p>
-    <p class="text-xl font-light pb-4">I also have a bit of experience with simple website development softwares like Wordpress and didn't like the limited functionality that I could do... but it could be because I didn't like making my own plugins.</p>
-    <p class="text-xl font-light pb-4">And that's practically everything for a little summary of my experiences in the field of Programming.</p>
-</div>
-
-<style>
-	.fadeIn {
-		animation: fadeIn 900ms ease-in-out;
-	}
-
-	@keyframes fadeIn {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 100%;
-		}
-	}
-</style>

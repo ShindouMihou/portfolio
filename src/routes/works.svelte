@@ -1,76 +1,35 @@
-<img
-	class="h-64 w-64 rounded border-2 border-white  border-dotted my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
-	src="/suyaa.png"
-	alt="Suyaa"
-/>
-<div class="animate fadeIn duration-500">
-	<h1 class="text-4xl font-bold hover:scale-110 hover:underline transition duration-500">Works</h1>
-	<p class="text-xl font-light">
-		This will be a little list of a very few projects that I've started, not limited to Programming
-		but also including stories that I've wrote.
-	</p>
+<div class="animate__animated animate__fadeInDown align-middle justify-center flex flex-col gap-4">
+	<div>
+		<h2 class="font-bold text-5xl">NOVELS</h2>
+		<p class="font-bold text-2xl text-gray-100">Long ago, the skies was filled with us.</p>
+		<p class="py-4 font-normal text-xl text-gray-100">
+            As a hobby, webnovel writing has helped me learn more about expressing my thoughts and telling stories to the public. It's a hobby that I wish to be with till the end.
+        </p>
+	</div>
+    <div class="py-4 flex flex-row gap-4 overflow-auto">
+        <a href="https://www.scribblehub.com/series/299262/the-vampire-empress/" data-tippy-content="The Vampire Empress">
+            <img src="https://cdn.mihou.pw/TVE_2.png" class="bg-gray-50 rounded text-black" height="350px" width="250px" alt="The Vampire Empress"/>
+        </a>
+        <a href="https://www.scribblehub.com/series/216494/a-liliful-world-yuri-reincarnation/" data-tippy-content="A Liliful World">
+            <img src="https://cdn.mihou.pw/A%20Liliful%20Concept%20Vol.%203.png" class="bg-gray-50 rounded text-black" height="350px" width="250px" alt="A Liliful World"/>
+        </a>
+        <a href="https://www.scribblehub.com/series/399589/moonshine/" data-tippy-content="Moonshine">
+            <img src="https://cdn.mihou.pw/Moonshine.png" class="bg-gray-50 rounded text-black" height="350px" width="250px" alt="Moonshine"/>
+        </a>
+    </div>
+    <div>
+		<h2 class="font-bold text-5xl">APPLICATIONS</h2>
+		<p class="font-bold text-2xl text-gray-100">The story between code.</p>
+		<p class="py-4 font-normal text-xl text-gray-100">
+            Although I've been a developer for a few years now, there are still quite little public applications that I've wrote but this will increase with time.
+        </p>
+	</div>
+    <div class="py-4 flex flex-row gap-4 overflow-auto">
+        <a href="https://manabot.fun/" data-tippy-content="Mana Nagase">
+            <img src="https://cdn.manabot.fun/images/Mana.png" class="bg-gray-50 rounded text-black" height="250px" width="250px" alt="Mana Nagase"/>
+        </a>
+        <a href="https://erisa.one/" data-tippy-content="Erisa">
+            <div class="h-64 w-64 bg-white rounded text-black mx-auto text-8xl font-bold items-center flex flex-col align-middle justify-center">ER</div>
+        </a>
+    </div>
 </div>
-
-<div class="animate fadeIn duration-500">
-	<a href="https://manabot.fun" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
-		<img
-			class="h-32 w-32 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
-			src="https://cdn.manabot.fun/images/Mana.png"
-			alt="Mana Nagase"
-		/>
-		<div class="flex flex-col pt-2 md:pt-6">
-			<h1 class="text-4xl font-bold">
-				Mana
-			</h1>
-			<p class="text-xl font-light">
-				Mana is an anime Discord bot that enhances anime Discord servers by bringing polarizing
-				amounts of sweet images and features.
-			</p>
-		</div>
-	</a>
-    <a href="https://www.scribblehub.com/series/299262/the-vampire-empress/" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
-		<img
-			class="h-48 w-36 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
-			src="https://cdn.mihou.pw/v3.png"
-			alt="Mana Nagase"
-		/>
-		<div class="flex flex-col pt-2 md:pt-6">
-			<h1 class="text-4xl font-bold">
-				The Vampire Empress
-			</h1>
-			<p class="text-xl font-light">
-				A small, fantasy story about a vampire living in the modern world suddenly transmigrated into a swords and magic medieval world, tasked with bringing prosperity to a ruined kingdom.
-			</p>
-		</div>
-	</a>
-    <a href="https://www.scribblehub.com/series/216494/a-liliful-world-yuri-reincarnation/" class="flex flex-col md:flex-row gap-4 hover:scale-105 transition duration-500">
-		<img
-			class="h-48 w-36 rounded border-2 border-white  border-dotted mt-6 md:my-6 hover:border-solid hover:scale-110 hover:brightness-110 transition duration-500"
-			src="https://cdn.mihou.pw/A%20Liliful%20Concept%20Vol.%203.png"
-			alt="Mana Nagase"
-		/>
-		<div class="flex flex-col pt-2 md:pt-6">
-			<h1 class="text-4xl font-bold">
-				A Liliful World
-			</h1>
-			<p class="text-xl font-light">
-				Another fantasy story that mainly attracts Yuri fans about an ordinary, programmer girl who was killed in the modern world while testing her game and reincarnated into the game that she created.
-			</p>
-		</div>
-	</a>
-</div>
-
-<style>
-	.fadeIn {
-		animation: fadeIn 900ms ease-in-out;
-	}
-
-	@keyframes fadeIn {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 100%;
-		}
-	}
-</style>

@@ -3,19 +3,19 @@
 	<url>
 	<loc>https://mihou.pw</loc>
 		<priority>1.0</priority>
-		<lastmod>2021-10-12T0:34:00+00:00</lastmod>
+		<lastmod>2021-12-8T0:34:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 	<loc>https://mihou.pw/edu</loc>
 		<priority>1.0</priority>
-		<lastmod>2021-10-12T0:34:00+00:00</lastmod>
+		<lastmod>2021-12-8T0:34:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 	<loc>https://mihou.pw/works</loc>
 		<priority>1.0</priority>
-		<lastmod>2021-10-12T0:34:00+00:00</lastmod>
+		<lastmod>2021-12-8T0:34:00+00:00</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 </urlset>

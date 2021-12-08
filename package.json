@@ -29,6 +29,8 @@
 		"@fontsource/fira-mono": "^4.5.0",
 		"@fortawesome/free-brands-svg-icons": "^5.15.4",
 		"@lukeed/uuid": "^2.0.0",
+		"@splidejs/splide": "^3.6.9",
+		"@splidejs/svelte-splide": "^0.1.15",
 		"cookie": "^0.4.1",
 		"svelte-fa": "^2.3.3",
 		"svelte-hero-icons": "^3.0.0",

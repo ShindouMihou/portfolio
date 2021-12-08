@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://manabot.fun/fonts/WeissenhofGrotesk-Bold.woff2');
 @import url('https://manabot.fun/fonts/WeissenhofGrotesk-Light.woff2');
+@import '@splidejs/splide/dist/css/splide.min.css';
 
 @tailwind base;
 @tailwind components;
@@ -17,4 +18,27 @@
 
 .roboto {
     font-family: 'Roboto', sans-serif;
+}
+
+.navigation__bg__change {
+    animation: navigation__bg__change 2s forwards;
+}
+
+@keyframes navigation__bg__change {
+    from {
+        background-color: #000;
+        color: #fff;
+    }
+
+    to {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+.contentful {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
