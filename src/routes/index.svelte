@@ -5,23 +5,30 @@
 	import Twitter from '../components/twitter.svelte';
 	import Discord from '../components/discord.svelte';
 	import { onMount } from 'svelte';
+	import Beaker from '../components/beaker.svelte';
 
 	onMount(() => {
         disableScrolling();
 		setTimeout(() => {
-			document.querySelector('.magic__typography__1').classList.replace('hidden', 'flex');
-            document.querySelector('#magic__typography__02').classList.replace('bg-white', 'bg-black');
-            document.querySelector('.magic__typography__1').classList.add('animatecss', 'animatecss-faster', 'animatecss-fadeInUp');
-
-
+			document.querySelector('#__loader').classList.add('animatecss', 'animatecss-slideOutDown');
 			setTimeout(() => {
-				document.querySelector('.magic__typography__2').classList.replace('hidden', 'block');
-
+				document.querySelector('#__loader').classList.add('hidden');
+				document.querySelector('#__content').classList.replace('hidden', 'flex');
 				setTimeout(() => {
-                    enableScrolling();
-				}, 50);
-			}, 450);
-		}, 250);
+					document.querySelector('.magic__typography__1').classList.replace('hidden', 'flex');
+            		document.querySelector('#magic__typography__02').classList.replace('bg-white', 'bg-black');
+            		document.querySelector('.magic__typography__1').classList.add('animatecss', 'animatecss-faster', 'animatecss-fadeInUp');
+
+					setTimeout(() => {
+						document.querySelector('.magic__typography__2').classList.replace('hidden', 'block');
+
+						setTimeout(() => {
+                	    	enableScrolling();
+						}, 50);
+					}, 450);
+				}, 250);
+			}, 1000);
+		}, 1000);
 	});
 
 	function disableScrolling() {
@@ -37,7 +44,11 @@
 	}
 </script>
 
-<div class="flex flex-col">
+<div class="h-screen w-screen bg-white mt-r text-black align-middle justify-center items-center flex flex-col" id="__loader">
+	<Beaker class="h-24 w-24 animate-bounce"></Beaker>
+	<h1 class="text-6xl font-bold animate-bounce uppercase text-center">Arisa Nagase</h1>
+</div>
+<div class="hidden flex-col" id="__content">
 	<div class="flex flex-col bg-white text-black pt-32">
 		<div class="p-12 md:p-24 w-full flex flex-col">
 			<div class="m-auto flex flex-col justify-between max-w-2xl">
