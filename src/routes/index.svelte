@@ -7,15 +7,17 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
+        disableScrolling();
 		setTimeout(() => {
 			document.querySelector('.magic__typography__1').classList.replace('hidden', 'flex');
-            disableScrolling();
+            document.querySelector('#magic__typography__02').classList.replace('bg-white', 'bg-black');
+            document.querySelector('.magic__typography__1').classList.add('animatecss', 'animatecss-faster', 'animatecss-fadeInUp');
+
 
 			setTimeout(() => {
-				document.querySelector('.magic__typography__2').classList.replace('hidden', 'flex');
+				document.querySelector('.magic__typography__2').classList.replace('hidden', 'block');
 
 				setTimeout(() => {
-					document.querySelector('body').classList.replace('bg-white', 'bg-black');
                     enableScrolling();
 				}, 50);
 			}, 450);
@@ -77,14 +79,15 @@
 		</div>
 	</div>
 	<div
-		class="bg-white flex-col hidden w-screen animatecss animatecss-faster animatecss-fadeInUp magic__typography__1"
+		class="flex-col hidden w-screen magic__typography__1"
 	>
 		<Waves />
 	</div>
 	<div
-		class="p-8 min-h-screen flex-col hidden bg-black animatecss animatecss-faster animatecss-fadeInUp magic__typography__2"
+		class="p-8 min-h-screen flex-col bg-white"
+        id="magic__typography__02"
 	>
-		<div class="m-auto prose prose-invert prose-h2:text-6xl prose-h3:text-4xl prose-h4:text-xl">
+		<div class="m-auto hidden animatecss animatecss-faster animatecss-fadeInUp magic__typography__2 prose prose-invert prose-h2:text-6xl prose-h3:text-4xl prose-h4:text-xl">
 			<h3 class="font-bold" id="bio">Biography</h3>
 			<p>
 				Born on December 22, 2004 on Bohol, Philippines; I am a full-stack developer who likes to
