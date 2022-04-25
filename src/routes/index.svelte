@@ -164,7 +164,7 @@
 				/>
 				<Work
 					href="https://github.com/ShindouMihou/Celestia"
-					icon="https://celebi.manabot.fun/Celestia.png"
+					icon="https://cdn.mihou.pw/Celestia.png"
 					name="Celestia"
 					desc="Creator, Logging"
 				/>
