@@ -16,14 +16,14 @@
 				document.querySelector('#__content').classList.replace('hidden', 'flex');
 				setTimeout(() => {
 					document.querySelector('.magic__typography__1').classList.replace('hidden', 'flex');
-            		document.querySelector('#magic__typography__02').classList.replace('bg-white', 'bg-black');
-            		document.querySelector('.magic__typography__1').classList.add('animatecss', 'animatecss-faster', 'animatecss-fadeInUp');
+            				document.querySelector('#magic__typography__02').classList.replace('bg-white', 'bg-black');
+            				document.querySelector('.magic__typography__1').classList.add('animatecss', 'animatecss-faster', 'animatecss-fadeInUp');
 
 					setTimeout(() => {
 						document.querySelector('.magic__typography__2').classList.replace('hidden', 'block');
 
 						setTimeout(() => {
-                	    	enableScrolling();
+                	    				enableScrolling();
 						}, 50);
 					}, 450);
 				}, 250);
@@ -146,7 +146,7 @@
 			<div class="flex flex-row flex-wrap gap-2">
 				<Work
 					href="https://manabot.fun/"
-					icon="https://media.discordapp.net/avatars/741288788164345856/31eb6893fa4952b25813d942aac74320.png?width=256&height=256"
+					icon="https://cdn.discordapp.com/avatars/741288788164345856/8eb9e9a49b04deceb22b95a91c0a4093.png?size=256"
 					name="Mana"
 					desc="Creator, Discord Bot"
 				/>
@@ -161,6 +161,12 @@
 					icon="https://media.discordapp.net/avatars/515067662028636170/47e5abaedee90b70a37826ee3d7435e6.png?size=256"
 					name="Beemo"
 					desc="Developer, Discord Bot"
+				/>
+				<Work
+					href="https://github.com/ShindouMihou/Celestia"
+					icon="https://celebi.manabot.fun/Celestia.png"
+					name="Celestia"
+					desc="Creator, Logging"
 				/>
 			</div>
 			<a
