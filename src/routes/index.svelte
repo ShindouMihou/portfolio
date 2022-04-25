@@ -46,7 +46,7 @@
 
 <div class="h-screen w-screen bg-white mt-r text-black align-middle justify-center items-center flex flex-col" id="__loader">
 	<Beaker class="h-24 w-24 animate-bounce"></Beaker>
-	<h1 class="text-6xl font-bold animate-bounce uppercase text-center">Arisa Nagase</h1>
+	<h1 class="text-6xl font-bold animate-bounce uppercase text-center">Loading</h1>
 </div>
 <div class="hidden flex-col" id="__content">
 	<div class="flex flex-col bg-white text-black pt-32">
