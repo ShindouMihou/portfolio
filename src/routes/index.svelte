@@ -42,6 +42,18 @@
 	function enableScrolling() {
 		window.onscroll = function () {};
 	}
+
+	// cc: https://stackoverflow.com/a/7091965
+	function age(date) {
+    	const today = new Date();
+    	const birthDate = new Date(date);
+    	var age = today.getFullYear() - birthDate.getFullYear();
+    	const m = today.getMonth() - birthDate.getMonth();
+    	if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        	age--;
+    	}
+    	return age;
+	}
 </script>
 
 <div class="h-screen w-screen bg-white mt-r text-black align-middle justify-center items-center flex flex-col" id="__loader">
@@ -101,46 +113,44 @@
 		<div class="m-auto hidden animatecss animatecss-faster animatecss-fadeInUp magic__typography__2 prose prose-invert prose-h2:text-6xl prose-h3:text-4xl prose-h4:text-xl">
 			<h3 class="font-bold" id="bio">Biography</h3>
 			<p>
-				Born on December 22, 2004 on Bohol, Philippines; I am a full-stack developer who likes to
-				engage in many different programming languages with proficiency in Java.
+				I'm a { age("2004 12 22") } years old self-proclaimed full-stack developer from Bohol, Philippines.
+				I was born on December 22, 2004 and have been working as a developer for several years now.
 			</p>
 			<p>
-				Gained from working on solo projects, I know a decent amount of devops, frontend and backend
-				development. Although I prefer developing backend development more than anything else.
+				As someone who works on a lot of solo projects, devops, front-end and back-end development are what I believe 
+				are my strengths. I'm also capable of managing databases and caching but I prefer to write back-end code more than 
+				any other as it ticks my creativity more.
 			</p>
 			<h3 class="font-bold" id="bio">Aliases</h3>
 			<p>
-				I like cute names and because of that... I have quite a few aliases that have accumulated
-				over the days but my current aliases consist of the following: <b>Miu</b> and
-				<b>Arisa Nagase</b>.
+				I go by multiple aliases which were either made by me or were made by someone else that eventually became a little 
+				standard among my nicknames. These consists of: <b>Miu</b> and <b>Arisa Nagase</b>.
 			</p>
 			<h3 class="font-bold" id="hobbies">Hobbies</h3>
 			<p>
-				Webtoons, mangas, long-strip that are either Shoujo-themed or Yuri-themed is my breakfast,
-				lunch and dinner. I like to read a lot and I do read a lot of those types of comics, but you
-				can't blame me... right
+				I like to read a lot of webtoons, mangas and long-strips. I don't mind the genre most of time but I tend to align more 
+				towards stories such as Korean CEO romance or strong female leads such as <b>Untouchable Lady</b>. I also like to read a lot 
+				of Girls' Love such as <b>Please Bully Me, Miss Villainess</b>.
 			</p>
 			<p>
-				But... I am productive! I am also somewhat of a webnovelist who writes stories that are both
-				my breakfast, lunch and dinner whenever I feel bored or have ran out of stories to read...
-				Yes!
+				Although... I am also a heavy fan of K-Drama with my favorites being <b>A Business Proposal</b>, <b>What's Wrong with Secretary Kim</b>,
+				<b>Tomorrow</b> and <b>My Roommate is a Gumiho</b>. I also write webnovels as a little side-hobby.
 			</p>
 			<p>
-				Uhh... I also play games but not as much as the average person. Although, I once went
-				through a gaming period where I played plenty of mobile MMORPGs such as Laplace M and Black
-				Desert Online, but other than that, I play Minecraft and osu! nowadays at times.
+				I'm not much of a gamer but I tend to play games that are more towards rythm these days with examples being <b>D4DJ</b> and <b>Arcaea</b> 
+				and also <b>osu!</b> but I used to play tons of mobile MMORPGs such as <b>Laplce M</b> and <b>Black Desert Online</b>. I also have a Minecraft 
+				account under the name <b>KaoriShiori</b> which was the names of two of my webnovel characters combined.
 			</p>
 			<h3 class="font-bold" id="proficiency">Proficiency</h3>
 			<p>
-				Talent is not in my genetics as far as I am concerned but that doesn't stop me from learning
-				all sorts of things and that includes programming languages which goes from <b>Java</b>,
-				<b>Rust</b>, <b>PHP</b>, <b>Javascript</b>, <b>Typescript</b> and so many more.
+				I am someone more on the curious side of things which leads me to experiment and try out new things that seems interesting to me which eventually 
+				becomes part of my tech stack. Examples of languages that I've acquired from this curiosity are: <b>Rust</b>, <b>Javascript or Typescript</b>. 
+				I'm also involved a bit with continous integration or continous development with <b>Github Actions</b> and devops such as <b>Docker Swarm</b> and 
+				<b>Docker</b>. 
 			</p>
 			<p>
-				Although I know all of those languages, my main proficiency lies in Java which has been a
-				language that I've used for quite a long time now. I also know several technologies such as <b
-					>MongoDB</b
-				>, <b>Redis</b>, <b>Docker</b> and a few more.
+				My primary languages to use is <b>Kotlin</b> or <b>Java</b> with the databases or caches being <b>MongoDB</b> and <b>Redis</b>. Other than 
+				those, you can find my entire tech stack and knowledgebase on my GitHub's README.
 			</p>
 			<h3 class="font-bold" id="proficiency">Projects</h3>
 			<div class="flex flex-row flex-wrap gap-2">
