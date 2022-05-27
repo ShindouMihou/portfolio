@@ -6,6 +6,7 @@
 	import Discord from '../components/discord.svelte';
 	import { onMount } from 'svelte';
 	import Beaker from '../components/beaker.svelte';
+	import Newspaper from '../components/newspaper.svelte';
 
 	onMount(() => {
         disableScrolling();
@@ -97,6 +98,14 @@
 					>
 						<Discord class="h-8 w-8" />
 					</a>
+					<a
+						href="https://blog.mihou.pw"
+						rel="external"
+						class="hover:opacity-50 duration-500"
+						target="_blank"
+					>
+						<Newspaper class="h-8 w-8" />
+					</a>
 				</div>
 			</div>
 		</div>
@@ -177,6 +186,12 @@
 					icon="https://cdn.mihou.pw/Celestia.png"
 					name="Celestia"
 					desc="Creator, Logging"
+				/>
+				<Work
+					href="https://github.com/ShindouMihou/Flora"
+					icon="https://cdn.mihou.pw/Flora.png"
+					name="Flora"
+					desc="Creator, Blogging"
 				/>
 			</div>
 			<a
