@@ -165,7 +165,7 @@
 			<div class="flex flex-row flex-wrap gap-2">
 				<Work
 					href="https://manabot.fun/"
-					icon="https://cdn.discordapp.com/avatars/741288788164345856/8eb9e9a49b04deceb22b95a91c0a4093.png?size=256"
+					icon="https://cdn.discordapp.com/avatars/741288788164345856/a2f5f56f15b4f302426b63fe4f9f4c34.png?size=256"
 					name="Mana"
 					desc="Creator, Discord Bot"
 				/>
@@ -192,6 +192,12 @@
 					icon="https://cdn.mihou.pw/Flora.png"
 					name="Flora"
 					desc="Creator, Blogging"
+				/>
+				<Work
+					href="https://bellus.quest"
+					icon="https://cdn.discordapp.com/avatars/983449886567583744/ddaaa9e3ef8cfc724ba42c44cc54b265.png?size=256"
+					name="Bellus"
+					desc="Creator, Discord Bot"
 				/>
 			</div>
 			<a
