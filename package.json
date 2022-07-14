@@ -35,6 +35,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"tailwind-animatecss": "^1.0.0"
+		"tailwindcss-animate": "^1.0.5"
 	}
 }
