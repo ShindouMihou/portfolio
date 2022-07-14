@@ -29,7 +29,7 @@ import Work from "$lib/components/work.svelte";
 
 <div class="py-6 limit-width w-full limit-x animate-in fade-in slide-in-from-top-3 ease-in-out duration-1000">
 	<h1 class="text-5xl font-bold lowercase leading-0">Mihou</h1>
-	<div class="text-2xl flex flex-col font-light pt-4">
+	<div class="text-2xl flex flex-col font-light">
 		<p>{age("2004 12 22")} years old from Bohol, Philippines. Full-stack developer.</p>
 		<p></p>
 	</div>
