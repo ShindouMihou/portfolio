@@ -42,7 +42,7 @@ import Work from "$lib/components/work.svelte";
 		<p class="break-words">
 			Kotlin and Java, Javascript and Typescript are my primary languages with experiences in GitHub Actions, Docker 
 			and Docker Swarm for devops, MongoDB and Redis for databases and a good amount of knowledge with using AWS as a cloud 
-			provider.
+			provider, Cloudflare-related technologies such as Cloudflare Worker, KV, etc. and many more.
 		</p>
 	</div>
 </div>
