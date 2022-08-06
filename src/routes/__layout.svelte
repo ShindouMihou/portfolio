@@ -51,7 +51,7 @@
                     <a href="https://discord.gg/Gy2vKkJjET" class="hover-opacity" rel="external" target="_blank" alt="Discord">
                         <Discord class="h-6 w-6"></Discord>
                     </a>
-                    <a href="https:/blog.mihou.pw" class="hover-opacity" rel="external" target="_blank" alt="Blog">
+                    <a href="https://blog.mihou.pw" class="hover-opacity" rel="external" target="_blank" alt="Blog">
                         <Newspaper class="h-6 w-6"></Newspaper>
                     </a>
                 </div>
