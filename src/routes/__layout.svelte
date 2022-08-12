@@ -43,6 +43,7 @@
                         through DMCAs, etc.
                     </p>
                     <p>You may use the source code of the website for references only.</p>
+                    <p class="font-bold py-2">hello@mihou.pw</p>
                 </div>
                 <div class="flex flex-row flex-wrap gap-4 pt-5">
                     <a href="https://github.com/ShindouMihou" class="hover-opacity" rel="external" target="_blank" alt="GitHub">
