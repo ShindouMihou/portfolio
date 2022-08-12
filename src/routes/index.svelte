@@ -47,7 +47,7 @@ import Work from "$lib/components/work.svelte";
 	</div>
 </div>
 
-<div class="pl-12 md:pl-44 pt-6 animate-in fade-in slide-in-from-top-1 ease-in-out duration-1000">
+<div class="pl-12 xl:pl-44 pt-6 animate-in fade-in slide-in-from-top-1 ease-in-out duration-1000">
 	<div class="w-full border-b border-b-gray-600">
 		<p>Works</p>
 	</div>

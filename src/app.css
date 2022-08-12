@@ -37,7 +37,7 @@
 
 @layer utilities {
     .limit-x {
-        @apply px-12 md:px-44;
+        @apply px-12 xl:px-44;
     }
 
     .limit-width {

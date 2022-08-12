@@ -26,4 +26,8 @@
         <img src={icon} class="hidden md:block bg-gray-600 w-full object-contain" alt={name}>
         <img src={mobileIcon} class="md:hidden bg-gray-600 w-full object-contain" alt={name}>
     {/if}
+    <div class="xl:hidden py-2 text-center">
+        <p class="font-bold text-sm text-gray-600">{name}</p>
+        <p class="font-light text-xs text-gray-600">{desc}</p>
+    </div>
 </a>
