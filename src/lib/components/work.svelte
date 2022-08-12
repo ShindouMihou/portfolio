@@ -14,7 +14,7 @@
     }
 </script>
 <a href={href} class="py-3 md:py-0 animate-in fade-in-0 slide-in-from-left-1 duration-1000 delay-75 ease-in-out relative w-full group select-none" rel="external" target="_blank">
-    <div class="opacity-0 w-full bg-[rgba(0,0,0,0.7)] h-full top-0 left-0 absolute group-hover:opacity-100 duration-500">
+    <div class="hidden xl:block opacity-0 w-full bg-[rgba(0,0,0,0.7)] h-full top-0 left-0 absolute group-hover:opacity-100 duration-500">
         <div class="absolute top-[50%] text-white left-0 text-center w-full translate-y-[-50%]">
             <p class="font-bold">{name}</p>
             <p class="text-gray-300 text-sm font-light">{desc}</p>
