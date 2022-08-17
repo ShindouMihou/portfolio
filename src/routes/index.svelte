@@ -84,6 +84,12 @@ import Work from "$lib/components/work.svelte";
 		desc="Blogging, Creator"
 	></Work>
 	<Work 
+		icon="https://media.discordapp.net/attachments/802880444877766697/1009585020727480371/Rubber_Duck_in_White.png"
+		href="https://rubberduck.mihou.pw" 
+		name="My Rubber Duck" 
+		desc="Rubber Duck, Creator"
+	></Work>
+	<Work 
 		icon="https://media.discordapp.net/avatars/515067662028636170/47e5abaedee90b70a37826ee3d7435e6.png?size=512"
 		href="https://beemo.gg" 
 		name="Beemo" 
