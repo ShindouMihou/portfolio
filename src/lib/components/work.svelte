@@ -21,10 +21,10 @@
         </div>
     </div>
     {#if !mobileIcon}
-        <img src={icon} class="bg-gray-600 w-full object-contain h-full" alt={name}>
+        <img src={icon} class="bg-gray-600 w-full object-cover h-full" alt={name}>
     {:else}
-        <img src={icon} class="hidden md:block bg-gray-600 w-full object-contain h-full" alt={name}>
-        <img src={mobileIcon} class="md:hidden bg-gray-600 w-full object-contain h-full" alt={name}>
+        <img src={icon} class="hidden md:block bg-gray-600 w-full object-cover h-full" alt={name}>
+        <img src={mobileIcon} class="md:hidden bg-gray-600 w-full object-cover h-full" alt={name}>
     {/if}
     <div class="xl:hidden py-2 text-center">
         <p class="font-bold text-sm text-gray-600">{name}</p>
