@@ -25,6 +25,7 @@ import Work from "$lib/components/work.svelte";
 	<link rel="preload" as="image" href="https://cdn.mihou.pw/Celestia.png"/>
 	<link rel="preload" as="image" href="https://cdn.mihou.pw/Flora.png"/>
 	<link rel="preload" as="image" href="https://media.discordapp.net/avatars/515067662028636170/47e5abaedee90b70a37826ee3d7435e6.png?size=512"/>
+	<link rel="preload" as="image" href="https://avatars.githubusercontent.com/u/122293977?s=1024&v=4"/>
 	<link rel="preload" as="image" href="https://exponie.me/favicon.png"/>
 </svelte:head>
 
@@ -58,6 +59,12 @@ import Work from "$lib/components/work.svelte";
 		icon="https://media.discordapp.net/avatars/786464598835986483/8175d0e1793e99b786032be669537a4c.png?size=512"
 		href="https://github.com/ManaNet/Amelia" 
 		name="Amelia" 
+		desc="Discord Bot, Creator"
+	></Work>
+	<Work 
+		icon="https://avatars.githubusercontent.com/u/122293977?s=1024&v=4"
+		href="https://github.com/Ketshap/ketshap" 
+		name="Ketshap" 
 		desc="Discord Bot, Creator"
 	></Work>
 	<Work 
