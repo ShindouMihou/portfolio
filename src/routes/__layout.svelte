@@ -23,7 +23,7 @@
     <link rel="preload" as="image" href="https://bellus.quest/bellus.min.png"/>
 </svelte:head>
 <div id="loader" class="h-screen w-screen m-auto p-12 align-middle justify-center flex flex-row items-center">
-    <img src="https://bellus.quest/bellus.min.png" class="animate__animated h-16 w-16 flex-shrink-0 animate-bounce" alt="Bellus"/>
+    <img src="https://bellus.quest/bellus.min.png" class="animate__animated h-16 w-16 flex-shrink-0 animate-bounce"/>
   </div>
 <div class="hidden min-h-screen flex flex-col" id="animate__Me">
     <main class="rubik bg-white pt-6 pb-12 flex flex-col flex-grow max-width">
