@@ -1,4 +1,3 @@
-##
 #### You are now viewing the Sierra variant of Mihou's portfolio 🔥
 
 Welcome to the 2023 edition of my portfolio, named Sierra. This year's portfolio includes a cleaner and informative website 
