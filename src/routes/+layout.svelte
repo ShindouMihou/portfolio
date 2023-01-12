@@ -44,7 +44,7 @@
         <main class="w-full flex flex-grow text-white min-h-screen">
             <div class="md:my-auto md:px-6 py-24">
                 <h1 class="text-lg playfair animate-loading">shindou mihou</h1>
-                <h2 class="text-3xl md:text-7xl lg:text-9xl playfair tracking-widest leading-none font-bold md:font-black uppercase animate-loading">curious <br>and adventurous</h2>
+                <h2 class="text-3xl md:text-7xl xl:text-9xl playfair tracking-widest leading-none font-bold md:font-black uppercase animate-loading">curious <br>and adventurous</h2>
             </div>
         </main>
     </div>
