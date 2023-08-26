@@ -17,14 +17,14 @@
 <Work
         icon="https://cdn.discordapp.com/attachments/1144617800204300288/1144902097867911218/burp.png"
         href="https://github.com/ShindouMihou/burp"
-        name="Amelia"
-        desc="Discord Bot, Creator"
-></Work>
-<Work
-        icon="https://cdn.discordapp.com/attachments/802880444877766697/1144847567935524905/threadscore.png?size=512"
-        href="https://top.gg/bot/1144365871356194866"
         name="Burp"
         desc="Deployment Tool, Creator"
+></Work>
+<Work
+        icon="https://media.discordapp.net/avatars/786464598835986483/8175d0e1793e99b786032be669537a4c.png?size=512"
+        href="https://github.com/Amelia-chan/Ameli"
+        name="Amelia"
+        desc="Discord Bot, Creator"
 ></Work>
 <Work
         icon="https://avatars.githubusercontent.com/u/122293977?s=1024&v=4"
