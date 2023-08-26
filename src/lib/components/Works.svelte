@@ -22,7 +22,7 @@
 ></Work>
 <Work
         icon="https://media.discordapp.net/avatars/786464598835986483/8175d0e1793e99b786032be669537a4c.png?size=512"
-        href="https://github.com/Amelia-chan/Ameli"
+        href="https://github.com/Amelia-chan/Amelia"
         name="Amelia"
         desc="Discord Bot, Creator"
 ></Work>
@@ -41,13 +41,13 @@
 <Work
         icon="https://cdn.discordapp.com/attachments/1144617800204300288/1144900191820980265/Screenshot_2023-08-26_073658_upscayl_4x_realesrgan-x4plus-anime1.png?size=512"
         href="https://github.com/ShindouMihou/guarde"
-        name="Exponentia (Desktop)"
-        desc="Spelling Game, Creator"
+        name="Guarde"
+        desc="Reverse Proxy, Creator"
 ></Work>
 <Work
         icon="https://exponie.me/favicon.png"
-        href="https://exponie.me/"
-        name="Guarde"
+        href="https://github.com/ShindouMihou/exponie-desktop"
+        name="Exponentia (Desktop)"
         desc="Reverse Proxy, Creator"
 ></Work>
 <Work
