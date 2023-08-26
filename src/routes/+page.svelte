@@ -27,11 +27,11 @@
             <ParallaxLayer offset={1} onProgress="{(progress) => changeParallaxOpacity(1, progress)}">
                 <div class="px-8 py-4 min-h-screen my-auto" style="opacity: {parallaxOpacities[1]}%">
                     <h2 class="text-lg playfair tracking-widest font-light pb-4">
-                        hello, i am shindou mihou and this is my programming story.
+                        hello, i am shindou mihou!
                     </h2>
                     <p class="font-light">
-                        I'm a self-proclaimed full-stack developer with a specific love for backend development from the Bohol, Philippines.
-                        I'm currently primarily a Kotlin developer with Typescript, Svelte and Rust to create backends and frontends respectively.
+                        I'm a self-proclaimed full-stack developer with a specific love for backend development from Bohol, Philippines.
+                        I'm currently primarily a Golang-Kotlin developer with Typescript, Svelte to create backends and frontends respectively.
                         I plan to participate more in local meetups from where I am, so if you find me out there, feel free to hit me up!
                     </p>
                     <h3 class="text-lg playfair tracking-widest font-light py-4">
@@ -42,7 +42,7 @@
                             i'm eighteen years old at the time of writing, and am currently attending a local high school.
                         </li>
                         <li>
-                            i used to, and maybe still, write web novels and mangas, webfonts and comics are the epitome of me.
+                            i used to, and maybe still, write web novels and mangas, webtoons and comics are the epitome of me.
                         </li>
                         <li>
                             i'm a photographer who also loves to make cinematography and creating minimalistic graphics tends to be my hobby.
