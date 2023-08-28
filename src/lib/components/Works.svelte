@@ -4,7 +4,7 @@
 
 <Work
         icon="https://cdn.discordapp.com/attachments/802880444877766697/1144847567935524905/threadscore.png?size=512"
-        href="https://top.gg/bot/1144365871356194866"
+        href="https://threadscore.mihou.pw"
         name="Threadscore"
         desc="Discord Bot, Creator"
 ></Work>
