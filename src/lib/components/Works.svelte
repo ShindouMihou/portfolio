@@ -3,6 +3,12 @@
 </script>
 
 <Work
+        icon="https://cdn.discordapp.com/attachments/1144617800204300288/1150503431069499392/splash.png?size=512"
+        href="https://github.com/ShindouMihou/notie"
+        name="Notie"
+        desc="Mobile App, Creator"
+></Work>
+<Work
         icon="https://cdn.discordapp.com/attachments/802880444877766697/1144847567935524905/threadscore.png?size=512"
         href="https://threadscore.mihou.pw"
         name="Threadscore"
@@ -48,7 +54,7 @@
         icon="https://exponie.me/favicon.png"
         href="https://github.com/ShindouMihou/exponie-desktop"
         name="Exponentia (Desktop)"
-        desc="Reverse Proxy, Creator"
+        desc="Spellling Game, Creator"
 ></Work>
 <Work
         icon="https://media.discordapp.net/attachments/802880444877766697/1009585020727480371/Rubber_Duck_in_White.png"
