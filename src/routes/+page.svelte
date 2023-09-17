@@ -1,6 +1,6 @@
 <script>
     import PhoneMockup from "$lib/components/PhoneMockup.svelte";
-    import {fade, slide, blur} from "svelte/transition"
+    import {fade, slide, blur, scale} from "svelte/transition"
     import {onMount} from "svelte";
     import {background, currentPage, splashscreen, text} from "$lib/states";
     import Introduction from "$lib/components/screens/Introduction.svelte";
@@ -43,15 +43,15 @@
                     <h1 class="text-2xl playfair lowercase font-bold">i am me.</h1>
                 </div>
             {:else if frame === 1}
-                <div in:slide={{ duration: 700 }} out:slide={{ duration: 300}}>
+                <div in:slide={{ duration: 700 }} out:blur={{ duration: 300}}>
                     <h1 class="text-2xl playfair lowercase font-bold">i am myself.</h1>
                 </div>
             {:else if frame === 2}
-                <div in:blur={{ duration: 700 }} out:slide={{ duration: 300}}>
+                <div in:blur={{ delay: 200, duration: 700 }} out:blur={{ duration: 300 }}>
                     <h1 class="text-2xl playfair lowercase glow font-bold">i am.</h1>
                 </div>
             {:else if frame === 3}
-                <div class="flex flex-col items-center" in:blur={{ duration: 700 }} out:blur={{ duration: 300}}>
+                <div class="flex flex-col items-center" in:blur={{ delay: 300, duration: 700 }} out:blur={{ duration: 300}}>
                     <h1 class="text-2xl playfair lowercase glow font-bold">shindou mihou</h1>
                     <h2 class="text-sm leading-none playfair lowercase">a curious and adventurous student.</h2>
                 </div>
