@@ -45,8 +45,7 @@
         <div class="flex flex-col gap-2 py-2 playfair text-sm">
             <p>
                 i used to write web novels and i tend to read mangas, webtoons and
-                comics as my past time. futhermore, i like  to take photographs, mostly of cinematic
-                scenes.
+                comics as my past time.
             </p>
             <p>
                 furthermore, i like to take photographs, mostly of cinematic

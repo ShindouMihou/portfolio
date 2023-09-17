@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: initial scaffold">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Expandable.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Photo.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/StatusBar.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Summary.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/Work.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/screens/Homepage.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/screens/Introduction.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/components/screens/Works.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/states.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/bohol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.postcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.postcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-    </list>
+    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: add the complete implementation of the luna variant" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +88,7 @@
       <workItem from="1673476096499" duration="984000" />
       <workItem from="1673749682231" duration="59000" />
       <workItem from="1694955191112" duration="558000" />
-      <workItem from="1694955751244" duration="15344000" />
+      <workItem from="1694955751244" duration="15529000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold: the entire sierra version">
       <created>1673474388828</created>
@@ -178,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694957936837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add the complete implementation of the luna variant">
+      <option name="closed" value="true" />
+      <created>1694972313896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694972313896</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +203,7 @@
     <MESSAGE value="fix: responsive text" />
     <MESSAGE value="fix: ipad 12.9 inch screens clipping text" />
     <MESSAGE value="feat: initial scaffold" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: initial scaffold" />
+    <MESSAGE value="feat: add the complete implementation of the luna variant" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add the complete implementation of the luna variant" />
   </component>
 </project>
