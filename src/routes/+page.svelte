@@ -37,7 +37,7 @@
 </style>
 {#if show}
     <div class="w-screen">
-        <div class="flex flex-col items-center pt-24 pb-12 {frame < 5 ? 'align-middle min-h-screen justify-center' : ''}">
+        <div class="flex flex-col items-center pt-6 md:pt-24 pb-12 {frame < 5 ? 'align-middle min-h-screen justify-center' : ''}">
             {#if frame === 0}
                 <div in:slide={{ duration: 700 }} out:slide={{ duration: 300}}>
                     <h1 class="text-2xl playfair lowercase font-bold">i am me.</h1>

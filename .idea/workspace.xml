@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: fix duply text">
+    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: add delays between loading">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       <workItem from="1673749682231" duration="59000" />
       <workItem from="1694955191112" duration="558000" />
       <workItem from="1694955751244" duration="15734000" />
-      <workItem from="1694972706276" duration="431000" />
+      <workItem from="1694972706276" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold: the entire sierra version">
       <created>1673474388828</created>
@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694972485356</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: add delays between loading">
+      <option name="closed" value="true" />
+      <created>1694973145725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694973145725</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
     <MESSAGE value="feat: initial scaffold" />
     <MESSAGE value="feat: add the complete implementation of the luna variant" />
     <MESSAGE value="feat: fix duply text" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fix duply text" />
+    <MESSAGE value="feat: add delays between loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add delays between loading" />
   </component>
 </project>
