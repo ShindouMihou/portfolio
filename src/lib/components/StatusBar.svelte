@@ -24,7 +24,7 @@
         <Icon src={window?.navigator?.onLine ? WifiHigh : WifiX} theme="duotone" size="16"/>
     </div>
     <div>
-        <p class="text-xs">{hours}:{minutes} {suffix}</p>
+        <p class="text-xs">{hours < 10 ? '0' + hours : hours}:{minutes < 10 ? '0' + minutes : minutes} {suffix}</p>
     </div>
     <div class="flex flex-row gap-1 flex-shrink-0">
         <p class="text-xs">{100 - ((hours > 12 ? (hours - 12) : hours) * 8)}%</p>
