@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: add homescreen">
-      <change beforePath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" afterDir="false" />
+    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: fix full homescreen  issue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1694955191112" duration="558000" />
       <workItem from="1694955751244" duration="15734000" />
       <workItem from="1694972706276" duration="702000" />
-      <workItem from="1695041787295" duration="2658000" />
+      <workItem from="1695041787295" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold: the entire sierra version">
       <created>1673474388828</created>
@@ -232,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695044289791</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: fix full homescreen  issue">
+      <option name="closed" value="true" />
+      <created>1695044466471</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044466471</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +291,7 @@
     <MESSAGE value="feat: add on-and-off state" />
     <MESSAGE value="feat: set turn off at first" />
     <MESSAGE value="feat: add homescreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add homescreen" />
+    <MESSAGE value="feat: fix full homescreen  issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fix full homescreen  issue" />
   </component>
 </project>

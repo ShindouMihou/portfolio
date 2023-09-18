@@ -66,7 +66,7 @@
         {#if status}
             {#if animationFrame === 0}
                 <div class="h-full w-full bg-black">
-                    <div class="flex flex-col items-center align-middle min-h-screen justify-center" >
+                    <div class="flex flex-col items-center align-middle h-full justify-center" >
                         <h1 class="text-lg playfair lowercase glow font-bold text-white"
                             in:blur={{ delay: 150, duration: 300 }}
                             out:fade={{ duration: 300}}>luna.</h1>
