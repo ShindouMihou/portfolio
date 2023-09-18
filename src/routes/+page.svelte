@@ -11,9 +11,11 @@
     let show = false
     let frame = 0
 
+    let turnOnPhone = false
+
     onMount(() => {
         setTimeout(() => { show = true}, 500)
-        setTimeout(() => { $background = 'bg-white'; $text = 'text-black'; $splashscreen = false; }, 6_000)
+        setTimeout(() => { $background = 'bg-white'; $text = 'text-black'; $splashscreen = false; turnOnPhone = true; }, 6_000)
         setTimeout(() => incrementFrame(), 800)
     })
 
@@ -64,7 +66,7 @@
             {/if}
         </div>
         <div in:blur={{ duration: 700, delay: 6_000 }} out:slide>
-            <PhoneMockup padding="p-0">
+            <PhoneMockup padding="p-0" bind:turnOn={turnOnPhone}>
                 <div in:fade={{delay: 2_400}}>
                     <StatusBar/>
                     {#if $currentPage === "introduction"}
