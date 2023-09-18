@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: add delays between loading">
+    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: set turn off at first">
+      <change afterPath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/Unexpected Land.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/StatusBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/StatusBar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/states.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/states.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bohol.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
         <option value="Battery" />
         <option value="StatusBar" />
         <option value="Work" />
+        <option value="Homescreen" />
       </list>
     </option>
   </component>
@@ -48,26 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;luna&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/shindoumihou/WebstormProjects/portfolio/src/lib/components/screens&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/shindoumihou/WebstormProjects/portfolio/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/shindoumihou/WebstormProjects/portfolio/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "luna",
+    "last_opened_file_path": "/home/shindoumihou/WebstormProjects/portfolio/static/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/shindoumihou/WebstormProjects/portfolio/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/shindoumihou/WebstormProjects/portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets" />
       <recent name="$PROJECT_DIR$/src/lib/components/screens" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/mockups" />
@@ -92,7 +100,8 @@
       <workItem from="1673749682231" duration="59000" />
       <workItem from="1694955191112" duration="558000" />
       <workItem from="1694955751244" duration="15734000" />
-      <workItem from="1694972706276" duration="518000" />
+      <workItem from="1694972706276" duration="702000" />
+      <workItem from="1695041787295" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold: the entire sierra version">
       <created>1673474388828</created>
@@ -182,7 +191,47 @@
       <option name="project" value="LOCAL" />
       <updated>1694973145725</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: reduce padding top on mobile">
+      <option name="closed" value="true" />
+      <created>1694973241328</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694973241328</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: fix status bar going negative">
+      <option name="closed" value="true" />
+      <created>1695041920432</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695041920432</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: fix time not having a 0-prefix">
+      <option name="closed" value="true" />
+      <created>1695042140704</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695042140704</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add on-and-off state">
+      <option name="closed" value="true" />
+      <created>1695042277546</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695042277546</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: set turn off at first">
+      <option name="closed" value="true" />
+      <created>1695042936888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695042936888</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +275,11 @@
     <MESSAGE value="feat: add the complete implementation of the luna variant" />
     <MESSAGE value="feat: fix duply text" />
     <MESSAGE value="feat: add delays between loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add delays between loading" />
+    <MESSAGE value="feat: reduce padding top on mobile" />
+    <MESSAGE value="feat: fix status bar going negative" />
+    <MESSAGE value="feat: fix time not having a 0-prefix" />
+    <MESSAGE value="feat: add on-and-off state" />
+    <MESSAGE value="feat: set turn off at first" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: set turn off at first" />
   </component>
 </project>

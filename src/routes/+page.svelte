@@ -7,6 +7,7 @@
     import Homepage from "$lib/components/screens/Homepage.svelte";
     import StatusBar from "$lib/components/StatusBar.svelte";
     import Works from "$lib/components/screens/Works.svelte";
+    import Homescreen from "$lib/components/screens/Homescreen.svelte";
 
     let show = false
     let frame = 0
@@ -75,6 +76,8 @@
                         <Homepage/>
                     {:else if $currentPage === 'works'}
                         <Works/>
+                    {:else if $currentPage === 'homescreen'}
+                        <Homescreen/>
                     {/if}
                 </div>
             </PhoneMockup>

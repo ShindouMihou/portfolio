@@ -2,6 +2,7 @@
     import {BatteryFull, CellSignalHigh, CellSignalX, WifiHigh, WifiX} from "@steeze-ui/phosphor-icons";
     import {Icon} from "@steeze-ui/svelte-icon";
     import {onMount} from "svelte";
+    import {currentPage} from "$lib/states";
     let time = new Date();
 
     $: hours = time.getHours();
@@ -18,7 +19,7 @@
         }
     })
 </script>
-<div class="pt-4 px-6 flex flex-row justify-between font-bold select-none">
+<div class="pt-4 px-6 flex flex-row justify-between font-bold select-none {$currentPage === 'homescreen' ? 'hidden' : ''}">
     <div class="flex flex-row gap-1 flex-shrink-0">
         <Icon src={window?.navigator?.onLine ? CellSignalHigh : CellSignalX} theme="duotone" size="16"/>
         <Icon src={window?.navigator?.onLine ? WifiHigh : WifiX} theme="duotone" size="16"/>
