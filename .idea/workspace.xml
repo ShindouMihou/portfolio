@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: set turn off at first">
-      <change afterPath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/Unexpected Land.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/PhoneMockup.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/StatusBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/StatusBar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/states.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/states.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/bohol.png" beforeDir="false" />
+    <list default="true" id="7e310262-6bed-4d5e-960b-bf6675b861d9" name="Changes" comment="feat: add homescreen">
+      <change beforePath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/screens/Homescreen.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <workItem from="1694955191112" duration="558000" />
       <workItem from="1694955751244" duration="15734000" />
       <workItem from="1694972706276" duration="702000" />
-      <workItem from="1695041787295" duration="2430000" />
+      <workItem from="1695041787295" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold: the entire sierra version">
       <created>1673474388828</created>
@@ -231,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695042936888</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: add homescreen">
+      <option name="closed" value="true" />
+      <created>1695044289791</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044289791</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +281,7 @@
     <MESSAGE value="feat: fix time not having a 0-prefix" />
     <MESSAGE value="feat: add on-and-off state" />
     <MESSAGE value="feat: set turn off at first" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: set turn off at first" />
+    <MESSAGE value="feat: add homescreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add homescreen" />
   </component>
 </project>
