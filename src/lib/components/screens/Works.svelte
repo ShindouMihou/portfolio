@@ -30,6 +30,12 @@
         <div class="flex flex-col gap-2 bg-[#464646] p-4">
             <div class="grid grid-cols-2 gap-2">
                 <Work
+                        icon="https://cdn.discordapp.com/attachments/1155277226401611816/1156623928198963252/Nexus_512_512_px.png"
+                        href="https://github.com/ShindouMihou/Nexus"
+                        name="Nexus"
+                        desc="Discord Bot Framework, Creator"
+                ></Work>
+                <Work
                         icon="https://cdn.discordapp.com/attachments/1144617800204300288/1150503431069499392/splash.png?size=512"
                         href="https://github.com/ShindouMihou/notie"
                         name="Notie"
