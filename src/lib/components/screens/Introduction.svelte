@@ -33,7 +33,7 @@
                     <p>Bohol, Philippines</p>
                 </Summary>
                 <Summary icon={HeartPulse} title="Age">
-                    <p>18 years old</p>
+                    <p>19 years old</p>
                 </Summary>
             </div>
             <Summary icon={Flame} title="Specialization">
