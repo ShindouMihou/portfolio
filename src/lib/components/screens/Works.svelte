@@ -90,26 +90,26 @@
                         desc="Spellling Game, Creator"
                 ></Work>
                 <Work
-                        icon="https://media.discordapp.net/attachments/802880444877766697/1009585020727480371/Rubber_Duck_in_White.png"
+                        icon="https://portfolio-image-assets.mihou.pw/Rubber_Duck_in_White.png"
                         href="https://rubberduck.mihou.pw"
                         name="My Rubber Duck"
                         desc="Rubber Duck, Creator"
                 ></Work>
                 <Work
-                        icon="https://media.discordapp.net/avatars/515067662028636170/47e5abaedee90b70a37826ee3d7435e6.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/47e5abaedee90b70a37826ee3d7435e6.png?size=512"
                         href="https://beemo.gg"
                         name="Beemo"
                         desc="Discord Bot, Co-Developer"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/avatars/983449886567583744/ddaaa9e3ef8cfc724ba42c44cc54b265.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/ddaaa9e3ef8cfc724ba42c44cc54b265.png?size=512"
                         href="https://irina.pages.dev"
                         name="Bellus"
                         desc="Discord Bot, Creator"
                         discontinued={true}
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/avatars/741288788164345856/a2f5f56f15b4f302426b63fe4f9f4c34.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/a2f5f56f15b4f302426b63fe4f9f4c34.png?size=512"
                         href="https://github.com/ManaNet"
                         name="Mana"
                         desc="Discord Bot, Creator"
