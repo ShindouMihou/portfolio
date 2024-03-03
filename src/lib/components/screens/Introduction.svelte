@@ -56,13 +56,13 @@
     <Expandable title="Photos" expanded={true}>
         <div class="flex flex-col gap-2 py-4 bg-[#433C36] px-2 brown-crossed mx-1 border-l border-r border-t border-black" in:slide out:slide>
             <Photo title="School Film: Tamper Cafe (unedited)"
-                   src="https://cdn.discordapp.com/attachments/1144617800204300288/1152991120708608031/DSC_0123.JPG?width=1024"/>
+                   src="https://portfolio-image-assets.mihou.pw/DSC_0123.JPG?width=1024"/>
             <Photo title="St. Joseph Cathedral (unedited)"
-                   src="https://cdn.discordapp.com/attachments/1144617800204300288/1152991315437551636/316805976_2733107920152532_2156992432695573984_n.jpg?width=1024"/>
+                   src="https://portfolio-image-assets.mihou.pw/316805976_2733107920152532_2156992432695573984_n.jpg?width=1024"/>
             <Photo title="St. Joseph Cathedral: Side View (unedited)"
-                   src="https://cdn.discordapp.com/attachments/1144617800204300288/1152991363462348820/316663976_2733107783485879_2441954232901026412_n.jpg?width=1024"/>
+                   src="https://portfolio-image-assets.mihou.pw/316663976_2733107783485879_2441954232901026412_n.jpg?width=1024"/>
             <Photo title="Heart (unedited)"
-                   src="https://cdn.discordapp.com/attachments/1144617800204300288/1152991446459232336/316947913_2733108013485856_7825912904963328528_n.jpg?width=1024"/>
+                   src="https://portfolio-image-assets.mihou.pw/316947913_2733108013485856_7825912904963328528_n.jpg?width=1024"/>
         </div>
     </Expandable>
 </div>

@@ -30,31 +30,31 @@
         <div class="flex flex-col gap-2 bg-[#464646] p-4">
             <div class="grid grid-cols-2 gap-2">
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/1155277226401611816/1156623928198963252/Nexus_512_512_px.png"
+                        icon="https://portfolio-image-assets.mihou.pw/Nexus_512_512_px.png"
                         href="https://github.com/ShindouMihou/Nexus"
                         name="Nexus"
                         desc="Discord Bot Framework, Creator"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/1144617800204300288/1150503431069499392/splash.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/splash.png?size=512"
                         href="https://github.com/ShindouMihou/notie"
                         name="Notie"
                         desc="Mobile App, Creator"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/802880444877766697/1144847567935524905/threadscore.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/threadscore.png?size=512"
                         href="https://threadscore.mihou.pw"
                         name="Threadscore"
                         desc="Discord Bot, Creator"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/1144617800204300288/1144901046217494538/primrose.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/primrose.png?size=512"
                         href="https://github.com/ShindouMihou/primrose"
                         name="Primrose"
                         desc="Blogging Platform, Creator"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/1144617800204300288/1144902097867911218/burp.png"
+                        icon="https://portfolio-image-assets.mihou.pw/burp.png"
                         href="https://github.com/ShindouMihou/burp"
                         name="Burp"
                         desc="Deployment Tool, Creator"
@@ -78,7 +78,7 @@
                         desc="Spelling Game, Creator"
                 ></Work>
                 <Work
-                        icon="https://cdn.discordapp.com/attachments/1144617800204300288/1144900191820980265/Screenshot_2023-08-26_073658_upscayl_4x_realesrgan-x4plus-anime1.png?size=512"
+                        icon="https://portfolio-image-assets.mihou.pw/Screenshot_2023-08-26_073658_upscayl_4x_realesrgan-x4plus-anime1.png?size=512"
                         href="https://github.com/ShindouMihou/guarde"
                         name="Guarde"
                         desc="Reverse Proxy, Creator"
