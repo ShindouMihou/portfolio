@@ -72,7 +72,7 @@
                         desc="Discord Bot, Creator"
                 ></Work>
                 <Work
-                        icon="https://exponie.me/favicon.png"
+                        icon="https://exponie.mihou.pw/favicon.png"
                         href="https://exponie.mihou.pw/"
                         name="Exponentia"
                         desc="Spelling Game, Creator"
