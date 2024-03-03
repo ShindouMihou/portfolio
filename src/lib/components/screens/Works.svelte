@@ -73,7 +73,7 @@
                 ></Work>
                 <Work
                         icon="https://exponie.me/favicon.png"
-                        href="https://exponie.me/"
+                        href="https://exponie.mihou.pw/"
                         name="Exponentia"
                         desc="Spelling Game, Creator"
                 ></Work>
