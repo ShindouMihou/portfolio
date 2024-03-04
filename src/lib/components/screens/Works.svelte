@@ -84,7 +84,7 @@
                         desc="Reverse Proxy, Creator"
                 ></Work>
                 <Work
-                        icon="https://exponie.me/favicon.png"
+                        icon="https://exponie.mihou.pw/favicon.png"
                         href="https://github.com/ShindouMihou/exponie-desktop"
                         name="Exponentia (Desktop)"
                         desc="Spellling Game, Creator"
