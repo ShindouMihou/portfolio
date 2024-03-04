@@ -30,6 +30,12 @@
         <div class="flex flex-col gap-2 bg-[#464646] p-4">
             <div class="grid grid-cols-2 gap-2">
                 <Work
+                        icon="https://portfolio-image-assets.mihou.pw/flyght-profile.png"
+                        href="https://flyght.mihou.pw"
+                        name="Flyght"
+                        desc="Discord Bot, Creator"
+                ></Work>
+                <Work
                         icon="https://portfolio-image-assets.mihou.pw/Nexus_512_512_px.png"
                         href="https://github.com/ShindouMihou/Nexus"
                         name="Nexus"
