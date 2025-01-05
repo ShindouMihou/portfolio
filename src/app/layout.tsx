@@ -26,16 +26,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-          <title>Shindou Mihou</title>
-      </head>
-      <body
+    <head>
+        <title>Shindou Mihou</title>
+        <meta name="og:title" content="Mihou's Portfolio"/>
+        <meta name="og:description"
+              content="Hey there, why not check out my portfolio here if you're interested!"/>
+        <meta name="theme-color" content="#4de1ff"/>
+        <meta name="theme-color" content="#7d23cc"/>
+        <meta name="theme-variant" content="dark-knight"/>
+        <meta name="og:image" content="https://mihou.dev/mihou-logo.png"/>
+    </head>
+    <body
         className={`${spaceMono.variable} ${horizons.variable} antialiased w-full`}
-      >
-        <Provider store={store}>
-            {children}
-        </Provider>
-      </body>
+    >
+    <Provider store={store}>
+        {children}
+    </Provider>
+    </body>
     </html>
   );
 }
