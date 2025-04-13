@@ -12,13 +12,6 @@ const ignoreRepositories = new Set<string>(
         "mana-issues", "Fake-Amelia"]
 )
 
-export async function requestRepositories() {
-    return await fetch('/repositories/meta.json')
-        .then(response => response.json())
-        .then(data => data as GitHubRepository[])
-        .then(data => data.filter((repo) => !ignoreRepositories.has(repo.name) && !repo.fork))
-}
-
 export async function requestRepositoriesRaw() {
     let repositories: GitHubRepository[] = []
     await fetch('https://api.github.com/users/ShindouMihou/repos?sort=created&per_page=100')
