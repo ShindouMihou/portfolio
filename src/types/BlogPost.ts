@@ -16,4 +16,4 @@ export const blogClient = createClient("https://primrose.mihou.dev", {
     }
 });
 
-export const { useRoute:useBlogRoute } = createQueryEngine(blogClient);
+export const { useRoute: useBlogRoute, useImmediatelyFiringRoute: useImmediatelyFiringBlogRoute } = createQueryEngine(blogClient);

@@ -12,4 +12,4 @@ export const localClient = createClient("", {
     }
 });
 
-export const { useRoute: useLocalRoute } = createQueryEngine(localClient);
+export const { useRoute: useLocalRoute, useImmediatelyFiringRoute: useImmediatelyFiringLocalRoute } = createQueryEngine(localClient);
