@@ -16,7 +16,7 @@ export default function SelectableApplication({ domain, image, alt } : Selectabl
         <button className={"block rounded-full w-16 h-16 border-2 border-r-0 border-dotted select-none " + (currentDomain.value == domain ? "border-yellow-500" : "border-background")} onClick={() => dispatch(setDomain(domain))}>
             <img
                 src={image}
-                className={"rounded-full w-16 h-16 object-cover hover:grayscale-0 duration-500 ease-in-out select-none " + (currentDomain.value == domain ? "grayscale-0" : "grayscale")}
+                className={"rounded-full w-16 h-16 object-cover hover:grayscale-0 duration-500 ease-in-out select-none bg-white " + (currentDomain.value == domain ? "grayscale-0" : "grayscale")}
                 alt={alt}
                 width={128}
                 height={128}

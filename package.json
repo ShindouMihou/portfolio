@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@client.ts/core": "^1.1.0-rc.6",
-    "@client.ts/react": "^1.1.0-rc.5-3",
+    "@client.ts/react": "^1.1.0-rc.5-7",
     "@icons-pack/react-simple-icons": "^10.2.0",
     "@reduxjs/toolkit": "^2.5.0",
     "next": "15.1.3",
