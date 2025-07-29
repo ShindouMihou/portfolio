@@ -1,7 +1,7 @@
 import mixpanel from 'mixpanel-browser';
 
 export const initMixpanel = () => {
-    mixpanel.init("95516510ee1131404f374185ab605f44", {
+    mixpanel.init("f3e6d8da9625c3b65e7db9e719ada025", {
         api_host: "https://mxp.storymkr.co",
         autocapture: true,
         autotrack: true,
