@@ -5,6 +5,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 import {Provider} from "react-redux";
 import {store} from "@/stores/global";
+import {initClarity} from "@/tracking/clarity";
+import {useEffect} from "react";
+import {initMixpanel} from "@/tracking/mixpanel";
 
 const spaceMono = Space_Mono({
     variable: "--font-space-mono",
@@ -24,6 +27,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+    useEffect(() => {
+        initMixpanel();
+        initClarity();
+    }, []);
+
   return (
     <html lang="en">
     <head>
