@@ -8,7 +8,7 @@ export default function WebViewer() {
     const currentDomain = useSelector((state: RootState) => state.domainSlice)
     return (
         <div
-            className={"w-full h-[25rem] border border-dotted hover-flow"}
+            className={"w-full h-[25rem] border border-dotted overflow-hidden hover-flow"}
         >
             {currentDomain.value == "none" ? (
                 <div className={"w-full bg-zinc-900 h-full p-4 text-white font-spaceMono"}>
