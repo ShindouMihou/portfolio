@@ -22,9 +22,11 @@ export default function WebViewer() {
                             <div className={"w-2 h-2 bg-green-500 rounded-full"}/>
                             <ArrowLeft size={14} className={"text-gray-500 ml-2"}/>
                             <ArrowRight size={14} className={"text-gray-500"}/>
-                            <RotateCw size={14} className={"text-gray-500"}/>
+                            <div className={"hidden md:block"}>
+                                <RotateCw size={14} className={"text-gray-500"}/>
+                            </div>
                         </div>
-                        <a href={currentDomain.value} target={"_blank"} className={"py-1 px-3 rounded bg-zinc-900 w-[65%] h-fit"}>
+                        <a href={currentDomain.value} target={"_blank"} className={"py-1 px-3 rounded bg-zinc-900 w-fit md:w-[65%] h-fit"}>
                             <h3 className={"text-xs"}>{currentDomain.value.replaceAll("https://", "")}</h3>
                         </a>
                         <div>
