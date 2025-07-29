@@ -7,6 +7,7 @@ import OpenSourceRepositories from "@/components/OpenSourceRepositories";
 import React from "react";
 import BlogPosts from "@/components/BlogPosts";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -27,6 +28,7 @@ export default function Home() {
                 <hr className={"border-zinc-900"}/>
                 <OpenSourceRepositories/>
             </main>
+            <Footer/>
         </div>
 );
 }
